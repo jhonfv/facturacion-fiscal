@@ -10,8 +10,8 @@ namespace facturacion.application.Mappers
             CreateMap<Cliente, ClienteDTO>();
             CreateMap<ClienteDTO, Cliente>();
 
-            CreateMap<Factura, ProductoDTO>();
-            CreateMap<ProductoDTO, Factura>();
+            CreateMap<Producto, ProductoDTO>();
+            CreateMap<ProductoDTO, Producto>();
         }
     }
 }
